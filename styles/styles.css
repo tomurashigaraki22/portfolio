@@ -1,0 +1,78 @@
+/* Reset some default browser styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply styles to the navbar header */
+.navbar {
+    background-color: #0a3d62; /* Deep blue background color */
+    color: white; /* Text color */
+    padding: 20px 0;
+}
+
+/* Style the navigation list */
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Style the navigation list items */
+.nav-list li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Style the navigation links */
+.nav-list li a {
+    text-decoration: none;
+    color: white; /* Link text color */
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+/* Change the link color on hover */
+.nav-list li a:hover {
+    color: #00a8ff; /* Light blue color on hover */
+}
+
+/* Style the sections */
+.section {
+    background-color: #1e272e; /* Dark blue background color */
+    color: white; /* Text color */
+    padding: 60px 20px;
+    text-align: center;
+}
+
+/* Style section headings */
+.section h1, .section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+/* Style section paragraphs */
+.section p {
+    font-size: 18px;
+}
+
+/* Style portfolio and contact lists */
+.portfolio-list, .contact-list {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+}
+
+/* Style portfolio and contact links */
+.portfolio-list li a, .contact-list li a {
+    text-decoration: none;
+    color: #00a8ff; /* Light blue link color */
+    transition: color 0.3s;
+}
+
+/* Change the link color on hover */
+.portfolio-list li a:hover, .contact-list li a:hover {
+    color: #0a3d62; /* Dark blue link color on hover */
+}
